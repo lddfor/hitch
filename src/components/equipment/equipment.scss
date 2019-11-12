@@ -1,0 +1,47 @@
+.equipment-record,
+.hitch {
+  .el-collapse {
+    border: none;
+
+    .el-collapse-item {
+      margin: 24px 0;
+
+      &>div:first-child {
+        box-shadow: 0px 0px 5px 1px #ebeef5;
+
+        .el-collapse-item__header {
+          padding-left: 24px;
+          //border-bottom: none;
+        }
+      }
+    }
+
+    .el-collapse-item__wrap {
+      margin-top: 8px;
+      border-bottom: none;
+    }
+
+    .el-collapse-item__content {
+      padding-bottom: 0;
+    }
+  }
+
+  .basic-detail-wrapper,
+  .techParam-compressor-wrapper,
+  .techParam-engine-wrapper,
+  .techParam-chainAlarm-wrapper {
+    padding-left: 24px;
+    line-height: 2.8;
+  }
+}
+
+.hitch {
+  .el-collapse-item__wrap {
+    margin-top: 16px !important;
+    padding: 0 24px;
+  }
+
+  .el-collapse-item__content {
+    line-height: 2.8;
+  }
+}
